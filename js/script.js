@@ -10,9 +10,8 @@ const SITE_CONFIG = {
   linkedin: "https://www.linkedin.com/in/prakharmehta/",
   googleScholar: "https://scholar.google.com/citations?user=f15GSnQAAAAJ&hl=en",
   researchGate: "https://www.researchgate.net/profile/Prakhar_Mehta?ev=hdr_xprf",
-  github: "",
   // A Calendly (or similar) booking link. Leave empty to hide.
-  calendly: "https://calendly.com/prakhar-2703/30mim",
+  calendly: "https://calendly.com/prakhar-2703/30min",
 };
 
 // "More on request" is shown under this list either way — replace these
