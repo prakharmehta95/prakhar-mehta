@@ -10,7 +10,7 @@ const SITE_CONFIG = {
   linkedin: "https://www.linkedin.com/in/prakharmehta/",
   googleScholar: "https://scholar.google.com/citations?user=f15GSnQAAAAJ&hl=en",
   researchGate: "https://www.researchgate.net/profile/Prakhar_Mehta?ev=hdr_xprf",
-  github: "
+  github: "",
   // A Calendly (or similar) booking link. Leave empty to hide.
   calendly: "https://calendly.com/prakhar-2703/30mim",
 };
@@ -119,6 +119,7 @@ function renderContactLinks() {
     { key: "googleScholar", label: "Google Scholar" },
     { key: "researchGate", label: "ResearchGate" },
     { key: "github", label: "GitHub" },
+    { key: "calendly", label: "Calendly" },
   ].filter((s) => SITE_CONFIG[s.key]);
 
   footer.innerHTML = social.map((s) =>
